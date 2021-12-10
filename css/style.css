@@ -5,14 +5,14 @@
   display: flex;
   justify-content: space-between;
 }
-.coach{ 
+.coach{
   font-size: 20px;
   margin-left: 20px;
 }
 .table{
-  width: 500px;
   margin-right: 20px;
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 a{
   text-decoration: none;
@@ -21,7 +21,6 @@ a{
 .foto{
   display: block;
   width: 50vw;
-  height: 400px;
   margin: 0 0 0 auto;
   position: relative;
   top: 90px;
